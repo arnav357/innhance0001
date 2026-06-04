@@ -669,149 +669,149 @@
   },
   "blog": {
     "latestInsights": "Wawasan Terbaru",
-    "titlePrefix": "Jurnal ",
-    "titleHighlight": "Innhance",
-    "subtitle": "Wawasan, strategi, dan pembaruan dari titik temu antara perhotelan dan kecerdasan buatan.",
+    "titlePrefix": "Innance",
+    "titleHighlight": "Jurnal",
+    "subtitle": "Wawasan, strategi, dan pembaruan dari perpaduan antara perhotelan dan kecerdasan buatan.",
     "comingSoon": "Segera Hadir",
     "readArticle": "Baca Artikel",
     "posts": [
       {
         "id": 1,
-        "title": "Cara Mengurangi Hambatan Check-in Tamu Menggunakan Otomatisasi",
-        "excerpt": "Definisi pengalaman hotel yang baik telah berubah secara dramatis. Pelajari bagaimana hotel menggunakan otomatisasi untuk menghilangkan kendala check-in.",
-        "date": "26 Mei 2026",
-        "readTime": "8 menit membaca",
+        "title": "Cara Mengurangi Gesekan Check-In Tamu Menggunakan Otomatisasi",
+        "excerpt": "Definisi pengalaman hotel yang bagus telah berubah. Pelajari bagaimana hotel menggunakan otomatisasi dan koordinasi real-time untuk menghilangkan hambatan check-in dan mengoptimalkan pergantian.",
+        "date": "May 26, 2026",
+        "readTime": "8 min read",
         "category": "Strategi",
-        "subtitle": "Panduan Langkah demi Langkah untuk Mengoptimalkan Waktu Perputaran Kamar",
-        "introductionTitle": "Tamu Modern Tidak Ingin 'Menunggu Keramahan' Lagi",
-        "introductionText": "The definition of a good hotel experience has changed dramatically. Guests still care about comfort, service, cleanliness, and personalization. But increasingly, they also expect instant communication, faster check-ins, real-time updates, and smooth digital experiences. After a long journey, even a 15-minute delay at reception feels frustrating. And for hotels, those delays create operational pressure that spreads across the property: crowded lobbies, stressed front desk teams, delayed housekeeping coordination, slower room allocation, and lower guest satisfaction. This is why hotels are increasingly turning toward automation not to remove hospitality, but to remove friction around it.",
-        "disconnectTitle": "The Real Problem Isn’t Check-In, It’s Operational Disconnect",
-        "disconnectText": "Most hotels already have hardworking teams. The issue is usually not effort. The issue is that operations are still heavily manual and disconnected. A room may already be cleaned, but reception hasn’t received the update yet. A guest may already have completed payment, but staff still manually verify details at the desk. Housekeeping, front office, reservations, and guest communication systems often operate separately. That disconnect creates delays guests immediately feel.",
-        "trendsTitle": "Why Guests Expect Faster Experiences Today",
-        "trendsText": "Traveler behavior has shifted rapidly toward mobile-first convenience. People are used to checking into flights digitally, tracking deliveries in real time, messaging businesses instantly, and completing payments online. Naturally, they now expect hotels to work similarly.",
+        "subtitle": "Panduan Langkah demi Langkah untuk Mengoptimalkan Waktu Perputaran Ruangan",
+        "introductionTitle": "Tamu Modern Tidak Ingin 'Menunggu Pelayanan' Lagi",
+        "introductionText": "Definisi pengalaman hotel yang bagus telah berubah secara dramatis. Tamu tetap mementingkan kenyamanan, pelayanan, kebersihan, dan personalisasi. Namun mereka juga semakin mengharapkan komunikasi instan, check-in lebih cepat, pembaruan real-time, dan pengalaman digital yang lancar. Setelah perjalanan panjang, bahkan penundaan 15 menit di resepsi pun terasa membuat frustasi. Dan bagi hotel, penundaan tersebut menciptakan tekanan operasional yang menyebar ke seluruh properti: lobi yang padat, tim resepsionis yang tertekan, koordinasi tata graha yang tertunda, alokasi kamar yang lebih lambat, dan kepuasan tamu yang lebih rendah. Inilah sebabnya mengapa hotel semakin beralih ke otomatisasi bukan untuk menghilangkan keramahtamahan, namun untuk menghilangkan gesekan di sekitarnya.",
+        "disconnectTitle": "Masalah Sebenarnya Bukan Check-In, Ini Pemutusan Operasional",
+        "disconnectText": "Sebagian besar hotel sudah memiliki tim pekerja keras. Masalahnya biasanya bukan pada usaha. Masalahnya adalah pengoperasiannya masih sangat manual dan terputus. Kamar mungkin sudah dibersihkan, tapi resepsionis belum menerima kabar terbaru. Seorang tamu mungkin sudah menyelesaikan pembayaran, namun staf masih memverifikasi rincian secara manual di meja. Sistem tata graha, kantor depan, reservasi, dan komunikasi tamu sering kali beroperasi secara terpisah. Putusnya hubungan tersebut menciptakan penundaan yang langsung dirasakan oleh tamu.",
+        "trendsTitle": "Mengapa Tamu Mengharapkan Pengalaman Lebih Cepat Saat Ini",
+        "trendsText": "Perilaku wisatawan telah berubah dengan cepat menuju kenyamanan yang mengutamakan seluler. Orang-orang terbiasa melakukan check-in penerbangan secara digital, melacak pengiriman secara real-time, mengirim pesan ke bisnis secara instan, dan menyelesaikan pembayaran secara online. Tentu saja, mereka sekarang mengharapkan hotel untuk melakukan hal yang sama.",
         "table1HeaderTrend": "Tren Perilaku Tamu",
         "table1HeaderData": "Data",
         "table1Rows": [
           {
-            "label": "Tamu yang lebih menyukai check-in seluler",
+            "label": "Tamu lebih memilih mobile check-in",
             "val": "73%"
           },
           {
-            "label": "Wisatawan yang bersedia melewati interaksi resepsionis",
+            "label": "Wisatawan bersedia melewatkan interaksi di meja depan",
             "val": "70%"
           },
           {
-            "label": "Tamu yang lebih menyukai pesan teks daripada telepon",
+            "label": "Tamu lebih memilih berkirim pesan daripada menelepon",
             "val": "89%"
           },
           {
-            "label": "Tingkat keterbacaan pesan WhatsApp/Teks",
+            "label": "Tarif buka WhatsApp/Pesan teks",
             "val": "98%"
           }
         ],
-        "table1Source": "Sumber: Oracle Hospitality, Guestara Hospitality Research (guestara.com)",
-        "stepsTitle": "5 Steps to Frictionless Operations",
+        "table1Source": "Sumber: Oracle Hospitality, Riset Perhotelan Guestara (guestara.com)",
+        "stepsTitle": "5 Langkah Menuju Operasi Tanpa Gesekan",
         "steps": [
           {
-            "num": "Step 1",
-            "title": "Automate Pre-Arrival Communication",
-            "desc": "The guest experience should begin before arrival. Hotels can automatically send booking confirmations, payment reminders, hotel directions, ID upload links, and check-in instructions through WhatsApp or SMS immediately after booking. This reduces confusion and significantly decreases front desk workload during arrival hours. It also creates a smoother, more professional first impression."
+            "num": "Langkah 1",
+            "title": "Otomatiskan Komunikasi Pra-Kedatangan",
+            "desc": "Pengalaman tamu harus dimulai sebelum kedatangan. Hotel dapat secara otomatis mengirimkan konfirmasi pemesanan, pengingat pembayaran, petunjuk arah hotel, link unggah identitas, dan petunjuk check-in melalui WhatsApp atau SMS segera setelah pemesanan. Hal ini mengurangi kebingungan dan secara signifikan mengurangi beban kerja meja depan selama jam kedatangan. Ini juga menciptakan kesan pertama yang lebih halus dan profesional."
           },
           {
-            "num": "Step 2",
-            "title": "Enable Digital Guest Registration",
-            "desc": "One of the biggest causes of reception bottlenecks is manual paperwork. Guests repeatedly filling ID details, signatures, registration forms, and payment confirmations creates unnecessary waiting. Hotels using digital check-in systems allow guests to complete these steps beforehand through mobile devices. That means guests arrive ready to collect keys instead of standing in queues."
+            "num": "Langkah 2",
+            "title": "Aktifkan Pendaftaran Tamu Digital",
+            "desc": "Salah satu penyebab terbesar kemacetan penerimaan adalah dokumen manual. Tamu berulang kali mengisi rincian identitas, tanda tangan, formulir pendaftaran, dan konfirmasi pembayaran sehingga menimbulkan penantian yang tidak perlu. Hotel yang menggunakan sistem check-in digital memungkinkan tamu menyelesaikan langkah-langkah ini sebelumnya melalui perangkat seluler. Artinya, para tamu tiba dalam keadaan siap untuk mengambil kunci, alih-alih harus mengantri."
           },
           {
-            "num": "Step 3",
-            "title": "Use AI-Powered Guest Communication",
-            "desc": "Most guest queries during arrival are repetitive: 'Is my room ready?', 'Can I check in early?', 'Where is parking?', and 'What documents are needed?'. AI-powered WhatsApp automation can answer these instantly 24/7. This helps hotels reduce missed inquiries, lower front desk pressure, improve guest satisfaction, and maintain response consistency. Research shows hotels using automated messaging systems significantly reduce average response time."
+            "num": "Langkah 3",
+            "title": "Gunakan Komunikasi Tamu yang Didukung AI",
+            "desc": "Sebagian besar pertanyaan tamu saat kedatangan bersifat berulang: 'Apakah kamar saya sudah siap?', 'Bolehkah saya check-in lebih awal?', 'Di mana tempat parkir?', dan 'Dokumen apa saja yang diperlukan?'. Otomatisasi WhatsApp yang didukung AI dapat menjawab pertanyaan ini secara instan 24/7. Hal ini membantu hotel mengurangi pertanyaan yang terlewat, menurunkan tekanan di meja depan, meningkatkan kepuasan tamu, dan menjaga konsistensi respons. Penelitian menunjukkan hotel yang menggunakan sistem pesan otomatis secara signifikan mengurangi waktu respons rata-rata."
           }
         ],
-        "table2HeaderArea": "Area Operasional",
-        "table2HeaderImprovement": "Rata-rata Peningkatan",
+        "table2HeaderArea": "Wilayah Operasional",
+        "table2HeaderImprovement": "Peningkatan Rata-Rata",
         "table2Rows": [
           {
             "label": "Waktu respons tamu",
-            "val": "Berkurang dari 47 menit menjadi kurang dari 2 menit"
+            "val": "Dikurangi dari 47 menit menjadi kurang dari 2 menit"
           },
           {
-            "label": "Beban kerja resepsionis",
-            "val": "Berkurang sebesar 20–40%"
+            "label": "Beban kerja meja depan",
+            "val": "Berkurang 20–40%"
           },
           {
-            "label": "Pertanyaan tamu yang diselesaikan secara otomatis",
+            "label": "Pertanyaan tamu diselesaikan secara otomatis",
             "val": "55–65%"
           }
         ],
-        "table2Source": "Sumber: SendSquared Hospitality AI Research (sendsquared.com)",
-        "step4Title": "Step 4: Create Real-Time Room Visibility",
-        "step4Desc": "This is where many hotels still struggle operationally. Housekeeping may clean rooms quickly, but updates often move slowly between departments. Without real-time visibility, reception delays check-ins unnecessarily, guests wait longer in the lobby, and staff repeatedly coordinate manually. Automation platforms help hotels track room cleaning status, inspection progress, maintenance blocks, and ready-to-check-in inventory in real time. This improves room allocation speed significantly.",
-        "step5Title": "Step 5: Optimize Room Turnover Workflows",
-        "step5Desc": "Room turnover is one of the most overlooked operational drivers in hospitality. But turnover speed directly affects guest wait times, occupancy utilization, early check-in flexibility, operational efficiency, and review scores. Hotels with slow turnover coordination often experience operational bottlenecks throughout the day.",
-        "turnoverDelayTitle": "Why Room Turnover Delays Usually Happen",
-        "turnoverDelayText": "The problem is rarely housekeeping speed alone. The bigger issue is workflow coordination. Many hotels still rely on manual calls between teams, spreadsheets, delayed room updates, and fragmented operational systems. This creates communication gaps between housekeeping, maintenance, reception, and reservations. Even a small delay in updates affects guest flow significantly.",
-        "turnoverOptimizedTitle": "What Optimized Turnover Operations Look Like",
-        "turnoverOptimizedText": "In a connected operational workflow, instead of teams manually coordinating every step, the workflow moves continuously. That operational visibility creates faster room readiness and smoother guest experiences.",
+        "table2Source": "Sumber: Riset AI Perhotelan SendSquared (sendsquared.com)",
+        "step4Title": "Langkah 4: Ciptakan Visibilitas Ruangan Secara Real-Time",
+        "step4Desc": "Di sinilah banyak hotel yang masih mengalami kesulitan operasional. Petugas kebersihan mungkin membersihkan ruangan dengan cepat, namun pembaruan sering kali berjalan lambat antar departemen. Tanpa visibilitas real-time, resepsionis menunda check-in jika tidak perlu, tamu menunggu lebih lama di lobi, dan staf berulang kali berkoordinasi secara manual. Platform otomatisasi membantu hotel melacak status pembersihan kamar, kemajuan inspeksi, blok pemeliharaan, dan inventaris siap check-in secara real time. Ini meningkatkan kecepatan alokasi ruangan secara signifikan.",
+        "step5Title": "Langkah 5: Optimalkan Alur Kerja Perputaran Ruangan",
+        "step5Desc": "Pergantian kamar adalah salah satu faktor operasional yang paling diabaikan di bidang perhotelan. Namun kecepatan pergantian tamu secara langsung memengaruhi waktu tunggu tamu, pemanfaatan hunian, fleksibilitas check-in lebih awal, efisiensi operasional, dan skor ulasan. Hotel dengan koordinasi pergantian yang lambat seringkali mengalami kemacetan operasional sepanjang hari.",
+        "turnoverDelayTitle": "Mengapa Keterlambatan Room Turnover Biasanya Terjadi",
+        "turnoverDelayText": "Masalahnya jarang sekali terletak pada kecepatan housekeeping saja. Masalah yang lebih besar adalah koordinasi alur kerja. Banyak hotel masih mengandalkan panggilan manual antar tim, spreadsheet, pembaruan kamar yang tertunda, dan sistem operasional yang terfragmentasi. Hal ini menciptakan kesenjangan komunikasi antara tata graha, pemeliharaan, penerimaan, dan reservasi. Bahkan sedikit penundaan dalam pembaruan akan mempengaruhi arus tamu secara signifikan.",
+        "turnoverOptimizedTitle": "Seperti Apa Operasi Perputaran yang Dioptimalkan",
+        "turnoverOptimizedText": "Dalam alur kerja operasional yang terhubung, alih-alih tim mengoordinasikan setiap langkah secara manual, alur kerja terus bergerak. Visibilitas operasional tersebut menciptakan kesiapan kamar yang lebih cepat dan pengalaman tamu yang lebih lancar.",
         "table3HeaderDept": "Departemen",
         "table3HeaderAction": "Tindakan Otomatis",
         "table3Rows": [
           {
-            "label": "Tamu melakukan check-out",
+            "label": "Tamu check out",
             "val": "PMS memperbarui status kamar secara instan"
           },
           {
-            "label": "Tugas pembersihan otomatis",
+            "label": "Tata graha ditugaskan secara otomatis",
             "val": "Alur kerja pembersihan dipicu"
           },
           {
-            "label": "Kamar diperiksa",
-            "val": "Resepsionis diberi tahu secara real time"
+            "label": "Ruangan diperiksa",
+            "val": "Meja depan diberitahu secara real time"
           },
           {
-            "label": "Kamar siap",
+            "label": "Kamar sudah siap",
             "val": "Kedatangan tamu diprioritaskan secara otomatis"
           }
         ],
-        "stressTitle": "Automation Doesn’t Replace Hospitality, It Removes Operational Stress",
-        "stressText": "One of the biggest misconceptions around hotel automation is that it removes the human side of service. In reality, good automation gives hotel teams more time to focus on hospitality itself. Instead of spending hours answering repetitive queries, chasing room updates, and coordinating manually, staff can focus more on personalized service, guest engagement, problem-solving, and creating memorable experiences. The human side of hospitality becomes stronger when operations feel smoother behind the scenes.",
-        "futureTitle": "Hotels Are Moving Toward Operational Intelligence",
-        "futureText": "The future of hospitality is not simply 'digital.' It is connected. Hotels are increasingly moving toward AI-assisted operations, WhatsApp-first communication, real-time operational coordination, predictive guest communication, and mobile-first guest journeys. The goal is no longer just automation. The goal is operational simplicity.",
-        "innhanceHelpTitle": "How Innhance Helps Hotels Simplify Guest Operations",
-        "innhanceHelpText": "Innhance helps hotels streamline guest communication and operational workflows using AI-powered hospitality automation. The platform helps properties automate WhatsApp guest communication, reduce missed inquiries, improve response speed, simplify operational coordination, and support smoother guest journeys.",
+        "stressTitle": "Otomatisasi Tidak Menggantikan Perhotelan, Ini Menghilangkan Stres Operasional",
+        "stressText": "Salah satu kesalahpahaman terbesar seputar otomatisasi hotel adalah bahwa hal itu menghilangkan sisi kemanusiaan dari layanan. Kenyataannya, otomatisasi yang baik memberi tim hotel lebih banyak waktu untuk fokus pada perhotelan itu sendiri. Daripada menghabiskan waktu berjam-jam untuk menjawab pertanyaan berulang, mengejar pembaruan ruangan, dan berkoordinasi secara manual, staf dapat lebih fokus pada layanan yang dipersonalisasi, keterlibatan tamu, penyelesaian masalah, dan menciptakan pengalaman yang tak terlupakan. Sisi kemanusiaan dari keramahtamahan menjadi lebih kuat ketika operasional terasa lebih lancar di belakang layar.",
+        "futureTitle": "Hotel Bergerak Menuju Intelijen Operasional",
+        "futureText": "Masa depan perhotelan bukan sekadar 'digital'. Itu terhubung. Hotel semakin beralih ke operasional yang dibantu AI, komunikasi yang mengutamakan WhatsApp, koordinasi operasional real-time, komunikasi tamu prediktif, dan perjalanan tamu yang mengutamakan perangkat seluler. Tujuannya bukan lagi sekedar otomatisasi. Tujuannya adalah kesederhanaan operasional.",
+        "innhanceHelpTitle": "Bagaimana Innhance Membantu Hotel Menyederhanakan Operasional Tamu",
+        "innhanceHelpText": "Innhance membantu hotel menyederhanakan komunikasi tamu dan alur kerja operasional menggunakan otomatisasi perhotelan yang didukung AI. Platform ini membantu properti mengotomatiskan komunikasi tamu WhatsApp, mengurangi pertanyaan yang terlewat, meningkatkan kecepatan respons, menyederhanakan koordinasi operasional, dan mendukung perjalanan tamu yang lebih lancar.",
         "faqsTitle": "Pertanyaan yang Sering Diajukan",
         "faqs": [
           {
             "q": "Apa itu otomatisasi check-in hotel?",
-            "a": "Otomatisasi check-in hotel membantu menyederhanakan proses kedatangan menggunakan registrasi digital, komunikasi berbasis AI, dan alur kerja tanpa sentuh."
+            "a": "Otomatisasi check-in hotel membantu menyederhanakan proses kedatangan menggunakan registrasi digital, komunikasi bertenaga AI, dan alur kerja nirkontak."
           },
           {
             "q": "Bagaimana otomatisasi meningkatkan kepuasan tamu?",
-            "a": "Otomatisasi mengurangi waktu tunggu, meningkatkan kecepatan komunikasi, dan menciptakan pengalaman tamu yang lebih mulus selama kedatangan dan sepanjang masa inap."
+            "a": "Otomatisasi mengurangi waktu tunggu, meningkatkan kecepatan komunikasi, dan menciptakan pengalaman tamu yang lebih lancar selama kedatangan dan selama menginap."
           },
           {
-            "q": "Mengapa penting mengoptimalkan perputaran kamar?",
-            "a": "Perputaran kamar yang lebih cepat meningkatkan efisiensi tingkat hunian, mengurangi waktu tunggu tamu, dan membantu hotel mengelola operasional secara lebih efektif selama periode sibuk."
+            "q": "Mengapa optimalisasi pergantian ruangan itu penting?",
+            "a": "Pergantian kamar yang lebih cepat meningkatkan efisiensi hunian, mengurangi waktu tunggu tamu, dan membantu hotel mengelola operasional dengan lebih efektif selama periode sibuk."
           },
           {
             "q": "Apakah otomatisasi menggantikan staf hotel?",
-            "a": "Tidak. Otomatisasi mengurangi tugas-tugas operasional yang berulang sehingga tim hotel dapat lebih fokus pada pengalaman tamu dan kualitas layanan."
+            "a": "Tidak. Otomatisasi mengurangi tugas operasional yang berulang sehingga tim hotel dapat lebih fokus pada pengalaman tamu dan kualitas layanan."
           }
         ],
-        "conclusionText": "Guests may not always remember every operational detail of a stay. But they remember whether check-in felt smooth, how quickly the hotel responded, and whether the experience felt effortless. Increasingly, the hotels creating those seamless experiences are the ones using automation not to replace hospitality, but to make it feel better.",
+        "conclusionText": "Tamu mungkin tidak selalu mengingat setiap detail operasional suatu penginapan. Namun mereka ingat apakah proses check-in terasa lancar, seberapa cepat hotel merespons, dan apakah pengalaman tersebut terasa mudah. Semakin banyak hotel yang menciptakan pengalaman tanpa hambatan adalah hotel yang menggunakan otomatisasi bukan untuk menggantikan keramahtamahan, namun untuk membuatnya terasa lebih baik.",
         "image": "/assets/blog/blog_img_1.webp",
         "contentBlocks": [
           {
             "type": "h3",
-            "text": "Tamu Modern Tidak Ingin \"Menunggu Keramahan\" Lagi"
+            "text": "Tamu Modern Tidak Ingin “Menunggu Pelayanan” Lagi"
           },
           {
             "type": "p",
-            "text": "Definisi pengalaman hotel yang baik telah berubah secara dramatis."
+            "text": "Definisi pengalaman hotel yang bagus telah berubah secara dramatis."
           },
           {
             "type": "p",
-            "text": "Tamu masih peduli tentang:"
+            "text": "Para tamu masih peduli tentang:"
           },
           {
             "type": "list",
@@ -824,7 +824,7 @@
           },
           {
             "type": "p",
-            "text": "Namun semakin hari, mereka juga mengharapkan:"
+            "text": "Namun mereka juga semakin mengharapkan:"
           },
           {
             "type": "list",
@@ -832,12 +832,12 @@
               "komunikasi instan",
               "check-in lebih cepat",
               "pembaruan waktu nyata",
-              "pengalaman digital yang mulus"
+              "pengalaman digital yang lancar"
             ]
           },
           {
             "type": "p",
-            "text": "Setelah perjalanan panjang, keterlambatan 15 menit saja di resepsionis sudah terasa melelahkan."
+            "text": "Setelah perjalanan panjang, bahkan penundaan 15 menit di resepsi pun terasa membuat frustasi."
           },
           {
             "type": "p",
@@ -846,24 +846,24 @@
           {
             "type": "list",
             "items": [
-              "lobi yang padat",
-              "tim resepsionis yang stres",
-              "koordinasi tata graha yang tertunda",
-              "alokasi kamar yang lebih lambat",
+              "lobi yang ramai",
+              "tim meja depan yang stres",
+              "koordinasi rumah tangga yang tertunda",
+              "alokasi ruangan lebih lambat",
               "kepuasan tamu yang lebih rendah"
             ]
           },
           {
             "type": "p",
-            "text": "Inilah sebabnya mengapa hotel semakin beralih ke otomatisasi, bukan untuk menghilangkan keramahan, tetapi untuk menghilangkan hambatan di sekitarnya."
+            "text": "Inilah sebabnya mengapa hotel semakin beralih ke otomatisasi bukan untuk menghilangkan keramahtamahan, namun untuk menghilangkan gesekan di sekitarnya."
           },
           {
             "type": "h3",
-            "text": "Masalah Sebenarnya Bukan Check-In, Tapi Putusnya Hubungan Operasional"
+            "text": "Masalah Sebenarnya Bukan Check-In, Ini Pemutusan Operasional"
           },
           {
             "type": "p",
-            "text": "Sebagian besar hotel sudah memiliki tim yang bekerja keras."
+            "text": "Sebagian besar hotel sudah memiliki tim pekerja keras."
           },
           {
             "type": "p",
@@ -871,36 +871,36 @@
           },
           {
             "type": "p",
-            "text": "Masalahnya adalah operasional yang masih sangat manual dan terfragmentasi."
+            "text": "Masalahnya adalah pengoperasiannya masih sangat manual dan terputus."
           },
           {
             "type": "list",
             "items": [
-              "Kamar mungkin sudah dibersihkan, tetapi resepsionis belum menerima pembaruannya.",
-              "Tamu mungkin sudah menyelesaikan pembayaran, tetapi staf masih memverifikasi detail secara manual di meja resepsionis.",
-              "Sistem tata graha, kantor depan, reservasi, dan komunikasi tamu sering kali berjalan secara terpisah."
+              "Kamar mungkin sudah dibersihkan, tapi resepsionis belum menerima kabar terbaru.",
+              "Seorang tamu mungkin sudah menyelesaikan pembayaran, namun staf masih memverifikasi rincian secara manual di meja.",
+              "Sistem tata graha, kantor depan, reservasi, dan komunikasi tamu sering kali beroperasi secara terpisah."
             ]
           },
           {
             "type": "p",
-            "text": "Keterputusan itu menciptakan penundaan yang langsung dirasakan oleh tamu."
+            "text": "Putusnya hubungan tersebut menciptakan penundaan yang langsung dirasakan oleh tamu."
           },
           {
             "type": "h3",
-            "text": "Mengapa Tamu Mengharapkan Pengalaman yang Lebih Cepat Hari Ini"
+            "text": "Mengapa Tamu Mengharapkan Pengalaman Lebih Cepat Saat Ini"
           },
           {
             "type": "p",
-            "text": "Perilaku wisatawan telah bergeser dengan cepat ke arah kenyamanan berbasis ponsel (mobile-first)."
+            "text": "Perilaku wisatawan telah berubah dengan cepat menuju kenyamanan yang mengutamakan seluler."
           },
           {
             "type": "p",
-            "text": "Orang-orang terbiasa untuk:"
+            "text": "Orang terbiasa:"
           },
           {
             "type": "list",
             "items": [
-              "melakukan check-in penerbangan secara digital",
+              "memeriksa penerbangan secara digital",
               "melacak pengiriman secara real time",
               "mengirim pesan ke bisnis secara instan",
               "menyelesaikan pembayaran secara online"
@@ -908,22 +908,22 @@
           },
           {
             "type": "p",
-            "text": "Tentu saja, mereka sekarang mengharapkan hotel untuk bekerja dengan cara yang serupa."
+            "text": "Tentu saja, mereka sekarang mengharapkan hotel untuk melakukan hal yang sama."
           },
           {
             "type": "p",
-            "text": "Riset perhotelan terbaru menunjukkan:"
+            "text": "Penelitian perhotelan terbaru menunjukkan:"
           },
           {
             "type": "table1"
           },
           {
             "type": "p",
-            "text": "Hotel yang terus mengandalkan koordinasi manual sepenuhnya sering kali kesulitan memenuhi harapan yang terus berkembang ini."
+            "text": "Hotel-hotel yang terus bergantung sepenuhnya pada koordinasi manual sering kali kesulitan memenuhi ekspektasi yang terus berkembang ini."
           },
           {
             "type": "h4",
-            "text": "Langkah 1: Otomatiskan Komunikasi Sebelum Kedatangan"
+            "text": "Langkah 1: Otomatiskan Komunikasi Pra-Kedatangan"
           },
           {
             "type": "p",
@@ -931,7 +931,7 @@
           },
           {
             "type": "p",
-            "text": "Hotel dapat secara otomatis mengirimkan:"
+            "text": "Hotel dapat mengirim secara otomatis:"
           },
           {
             "type": "list",
@@ -939,38 +939,38 @@
               "konfirmasi pemesanan",
               "pengingat pembayaran",
               "petunjuk arah hotel",
-              "tautan unggah ID",
+              "Tautan unggah ID",
               "instruksi check-in"
             ]
           },
           {
             "type": "p",
-            "text": "melalui WhatsApp atau SMS segera setelah pemesanan dilakukan."
+            "text": "melalui WhatsApp atau SMS segera setelah pemesanan."
           },
           {
             "type": "p",
-            "text": "Hal ini mengurangi kebingungan dan secara signifikan mengurangi beban kerja resepsionis selama jam kedatangan."
+            "text": "Hal ini mengurangi kebingungan dan secara signifikan mengurangi beban kerja meja depan selama jam kedatangan."
           },
           {
             "type": "p",
-            "text": "Ini juga menciptakan kesan pertama yang lebih mulus dan profesional."
+            "text": "Ini juga menciptakan kesan pertama yang lebih halus dan profesional."
           },
           {
             "type": "h4",
-            "text": "Langkah 2: Aktifkan Registrasi Tamu Digital"
+            "text": "Langkah 2: Aktifkan Pendaftaran Tamu Digital"
           },
           {
             "type": "p",
-            "text": "Salah satu penyebab terbesar antrean di resepsionis adalah dokumen manual."
+            "text": "Salah satu penyebab terbesar kemacetan penerimaan adalah dokumen manual."
           },
           {
             "type": "p",
-            "text": "Tamu yang berulang kali mengisi:"
+            "text": "Tamu berulang kali mengisi:"
           },
           {
             "type": "list",
             "items": [
-              "detail identitas",
+              "Detail tanda pengenal",
               "tanda tangan",
               "formulir pendaftaran",
               "konfirmasi pembayaran"
@@ -978,68 +978,68 @@
           },
           {
             "type": "p",
-            "text": "menciptakan waktu tunggu yang tidak perlu."
+            "text": "menciptakan penantian yang tidak perlu."
           },
           {
             "type": "p",
-            "text": "Hotel yang menggunakan sistem check-in digital memungkinkan tamu menyelesaikan langkah-langkah ini terlebih dahulu melalui perangkat seluler."
+            "text": "Hotel yang menggunakan sistem check-in digital memungkinkan tamu menyelesaikan langkah-langkah ini sebelumnya melalui perangkat seluler."
           },
           {
             "type": "p",
-            "text": "Itu berarti tamu datang siap untuk mengambil kunci, bukan untuk mengantre."
+            "text": "Artinya, para tamu tiba dalam keadaan siap untuk mengambil kunci, alih-alih harus mengantri."
           },
           {
             "type": "h4",
-            "text": "Langkah 3: Gunakan Komunikasi Tamu Berbasis AI"
+            "text": "Langkah 3: Gunakan Komunikasi Tamu yang Didukung AI"
           },
           {
             "type": "p",
-            "text": "Sebagian besar pertanyaan tamu selama kedatangan bersifat berulang:"
+            "text": "Sebagian besar pertanyaan tamu saat kedatangan bersifat berulang:"
           },
           {
             "type": "list",
             "items": [
-              "“Apakah kamar saya sudah siap?”",
-              "“Bisakah saya check-in lebih awal?”",
+              "“Apakah kamarku sudah siap?”",
+              "“Bolehkah aku check-in lebih awal?”",
               "“Di mana tempat parkirnya?”",
-              "“Dokumen apa saja yang diperlukan?”"
+              "“Dokumen apa yang diperlukan?”"
             ]
           },
           {
             "type": "p",
-            "text": "Otomatisasi WhatsApp berbasis AI dapat menjawab pertanyaan ini secara instan 24/7."
+            "text": "Otomatisasi WhatsApp yang didukung AI dapat menjawab pertanyaan ini secara instan 24/7."
           },
           {
             "type": "p",
-            "text": "Ini membantu hotel untuk:"
+            "text": "Ini membantu hotel:"
           },
           {
             "type": "list",
             "items": [
               "mengurangi pertanyaan yang terlewat",
-              "menurunkan tekanan kerja resepsionis",
+              "tekanan meja depan yang lebih rendah",
               "meningkatkan kepuasan tamu",
               "menjaga konsistensi respons"
             ]
           },
           {
             "type": "p",
-            "text": "Riset menunjukkan hotel yang menggunakan sistem pesan otomatis secara signifikan mengurangi rata-rata waktu respons."
+            "text": "Penelitian menunjukkan hotel yang menggunakan sistem pesan otomatis secara signifikan mengurangi waktu respons rata-rata."
           },
           {
             "type": "table2"
           },
           {
             "type": "h4",
-            "text": "Langkah 4: Buat Visibilitas Kamar Waktu Nyata"
+            "text": "Langkah 4: Ciptakan Visibilitas Ruangan Secara Real-Time"
           },
           {
             "type": "p",
-            "text": "Di sinilah banyak hotel masih kesulitan secara operasional."
+            "text": "Di sinilah banyak hotel yang masih mengalami kesulitan operasional."
           },
           {
             "type": "p",
-            "text": "Staf tata graha mungkin membersihkan kamar dengan cepat, tetapi pembaruan informasi sering kali lambat berpindah antar departemen."
+            "text": "Petugas kebersihan mungkin membersihkan ruangan dengan cepat, namun pembaruan sering kali berjalan lambat antar departemen."
           },
           {
             "type": "p",
@@ -1048,9 +1048,9 @@
           {
             "type": "list",
             "items": [
-              "resepsionis menunda check-in tanpa alasan yang jelas",
+              "penerimaan menunda check-in yang tidak perlu",
               "tamu menunggu lebih lama di lobi",
-              "staf berulang kali melakukan koordinasi manual"
+              "staf berulang kali berkoordinasi secara manual"
             ]
           },
           {
@@ -1061,36 +1061,36 @@
             "type": "list",
             "items": [
               "status pembersihan kamar",
-              "progres inspeksi",
-              "pemblokiran pemeliharaan",
-              "inventaris kamar yang siap check-in"
+              "kemajuan pemeriksaan",
+              "blok pemeliharaan",
+              "inventaris siap untuk check-in"
             ]
           },
           {
             "type": "p",
-            "text": "secara real time."
+            "text": "dalam waktu nyata."
           },
           {
             "type": "p",
-            "text": "Ini meningkatkan kecepatan alokasi kamar secara signifikan."
+            "text": "Ini meningkatkan kecepatan alokasi ruangan secara signifikan."
           },
           {
             "type": "h4",
-            "text": "Langkah 5: Optimalkan Alur Kerja Perputaran Kamar"
+            "text": "Langkah 5: Optimalkan Alur Kerja Perputaran Ruangan"
           },
           {
             "type": "p",
-            "text": "Perputaran kamar adalah salah satu pendorong operasional yang paling sering diabaikan dalam industri perhotelan."
+            "text": "Pergantian kamar adalah salah satu faktor operasional yang paling diabaikan di bidang perhotelan."
           },
           {
             "type": "p",
-            "text": "Namun kecepatan perputaran secara langsung mempengaruhi:"
+            "text": "Namun kecepatan turnover secara langsung mempengaruhi:"
           },
           {
             "type": "list",
             "items": [
               "waktu tunggu tamu",
-              "utilisasi tingkat hunian",
+              "pemanfaatan hunian",
               "fleksibilitas check-in awal",
               "efisiensi operasional",
               "skor ulasan"
@@ -1098,15 +1098,15 @@
           },
           {
             "type": "p",
-            "text": "Hotel dengan koordinasi perputaran kamar yang lambat sering kali mengalami hambatan operasional sepanjang hari."
+            "text": "Hotel dengan koordinasi pergantian yang lambat seringkali mengalami kemacetan operasional sepanjang hari."
           },
           {
             "type": "h3",
-            "text": "Mengapa Penundaan Perputaran Kamar Biasanya Terjadi"
+            "text": "Mengapa Keterlambatan Room Turnover Biasanya Terjadi"
           },
           {
             "type": "p",
-            "text": "Masalahnya jarang sekali hanya pada kecepatan staf tata graha."
+            "text": "Masalahnya jarang sekali terletak pada kecepatan housekeeping saja."
           },
           {
             "type": "p",
@@ -1114,37 +1114,37 @@
           },
           {
             "type": "p",
-            "text": "Banyak hotel masih bergantung pada:"
+            "text": "Banyak hotel yang masih mengandalkan:"
           },
           {
             "type": "list",
             "items": [
               "panggilan manual antar tim",
-              "lembar kerja (spreadsheets)",
-              "pembaruan kamar yang terlambat",
+              "spreadsheet",
+              "pembaruan kamar tertunda",
               "sistem operasional yang terfragmentasi"
             ]
           },
           {
             "type": "p",
-            "text": "Ini menciptakan celah komunikasi antara:"
+            "text": "Hal ini menciptakan kesenjangan komunikasi antara:"
           },
           {
             "type": "list",
             "items": [
-              "tata graha",
+              "rumah tangga",
               "pemeliharaan",
-              "resepsionis",
+              "penerimaan",
               "reservasi"
             ]
           },
           {
             "type": "p",
-            "text": "Bahkan keterlambatan kecil dalam pembaruan mempengaruhi arus tamu secara signifikan."
+            "text": "Bahkan sedikit penundaan dalam pembaruan akan mempengaruhi arus tamu secara signifikan."
           },
           {
             "type": "h3",
-            "text": "Seperti Apa Operasional Perputaran Kamar yang Dioptimalkan"
+            "text": "Seperti Apa Operasi Perputaran yang Dioptimalkan"
           },
           {
             "type": "p",
@@ -1155,33 +1155,33 @@
           },
           {
             "type": "p",
-            "text": "Alih-alih tim melakukan koordinasi manual di setiap langkah, alur kerja bergerak secara terus-menerus."
+            "text": "Alih-alih tim mengoordinasikan setiap langkah secara manual, alur kerja terus bergerak."
           },
           {
             "type": "p",
-            "text": "Visibilitas operasional itu menciptakan kesiapan kamar yang lebih cepat dan pengalaman tamu yang lebih mulus."
+            "text": "Visibilitas operasional tersebut menciptakan kesiapan kamar yang lebih cepat dan pengalaman tamu yang lebih lancar."
           },
           {
             "type": "h3",
-            "text": "Otomatisasi Tidak Menggantikan Keramahan, Ini Menghilangkan Stres Operasional"
+            "text": "Otomatisasi Tidak Menggantikan Perhotelan, Ini Menghilangkan Stres Operasional"
           },
           {
             "type": "p",
-            "text": "Salah satu kesalahpahaman terbesar seputar otomatisasi hotel adalah bahwa hal itu menghilangkan sisi manusiawi dari layanan."
+            "text": "Salah satu kesalahpahaman terbesar seputar otomatisasi hotel adalah bahwa hal itu menghilangkan sisi kemanusiaan dari layanan."
           },
           {
             "type": "p",
-            "text": "Kenyataannya, otomatisasi yang baik memberikan tim hotel lebih banyak waktu untuk fokus pada keramahan itu sendiri."
+            "text": "Kenyataannya, otomatisasi yang baik memberi tim hotel lebih banyak waktu untuk fokus pada perhotelan itu sendiri."
           },
           {
             "type": "p",
-            "text": "Alih-alih menghabiskan berjam-jam untuk:"
+            "text": "Daripada menghabiskan waktu berjam-jam:"
           },
           {
             "type": "list",
             "items": [
-              "menjawab pertanyaan berulang",
-              "mengejar pembaruan kamar",
+              "menjawab pertanyaan yang berulang-ulang",
+              "mengejar pembaruan ruangan",
               "berkoordinasi secara manual"
             ]
           },
@@ -1192,45 +1192,45 @@
           {
             "type": "list",
             "items": [
-              "layanan personal",
-              "interaksi dengan tamu",
+              "layanan yang dipersonalisasi",
+              "keterlibatan tamu",
               "pemecahan masalah",
-              "menciptakan pengalaman berkesan"
+              "menciptakan pengalaman yang mengesankan"
             ]
           },
           {
             "type": "p",
-            "text": "Sisi manusiawi dari keramahan menjadi lebih kuat ketika operasional di balik layar berjalan lebih lancar."
+            "text": "Sisi kemanusiaan dari keramahtamahan menjadi lebih kuat ketika operasional terasa lebih lancar di belakang layar."
           },
           {
             "type": "h3",
-            "text": "Hotel Bergerak Menuju Kecerdasan Operasional"
+            "text": "Hotel Bergerak Menuju Intelijen Operasional"
           },
           {
             "type": "p",
-            "text": "Masa depan industri perhotelan bukan sekadar “digital”."
+            "text": "Masa depan perhotelan tidak hanya sekedar “digital.”"
           },
           {
             "type": "p",
-            "text": "Ini adalah tentang keterhubungan."
+            "text": "Itu terhubung."
           },
           {
             "type": "p",
-            "text": "Hotel semakin bergerak ke arah:"
+            "text": "Hotel semakin bergerak menuju:"
           },
           {
             "type": "list",
             "items": [
-              "operasional yang dibantu AI",
-              "komunikasi berbasis WhatsApp-first",
+              "Operasi yang dibantu AI",
+              "Komunikasi yang mengutamakan WhatsApp",
               "koordinasi operasional waktu nyata",
               "komunikasi tamu prediktif",
-              "perjalanan tamu berbasis ponsel (mobile-first)"
+              "perjalanan tamu yang mengutamakan seluler"
             ]
           },
           {
             "type": "p",
-            "text": "Tujuannya bukan lagi sekadar otomatisasi."
+            "text": "Tujuannya bukan lagi sekedar otomatisasi."
           },
           {
             "type": "p",
@@ -1242,11 +1242,11 @@
           },
           {
             "type": "p",
-            "text": "Innhance membantu hotel menyederhanakan komunikasi tamu dan alur kerja operasional menggunakan otomatisasi perhotelan berbasis AI."
+            "text": "Innhance membantu hotel menyederhanakan komunikasi tamu dan alur kerja operasional menggunakan otomatisasi perhotelan yang didukung AI."
           },
           {
             "type": "p",
-            "text": "Platform ini membantu properti untuk:"
+            "text": "Platform ini membantu properti:"
           },
           {
             "type": "list",
@@ -1263,46 +1263,101 @@
           },
           {
             "type": "conclusion",
-            "text": "Tamu mungkin tidak selalu mengingat setiap detail operasional selama menginap."
+            "text": "Tamu mungkin tidak selalu mengingat setiap detail operasional suatu penginapan."
           },
           {
             "type": "conclusion",
-            "text": "Namun mereka ingat:"
+            "text": "Tapi mereka ingat:"
           },
           {
             "type": "conclusion_list",
             "items": [
               "apakah check-in terasa lancar",
-              "seberapa cepat pihak hotel merespons",
-              "apakah pengalamannya terasa mudah"
+              "seberapa cepat hotel merespons",
+              "apakah pengalaman itu terasa mudah"
             ]
           },
           {
             "type": "conclusion",
-            "text": "Semakin banyak hotel yang menciptakan pengalaman mulus tersebut adalah mereka yang menggunakan otomatisasi bukan untuk menggantikan keramahan, melainkan untuk membuatnya terasa lebih baik."
+            "text": "Semakin banyak hotel yang menciptakan pengalaman tanpa hambatan adalah hotel yang menggunakan otomatisasi bukan untuk menggantikan keramahtamahan, namun untuk membuatnya terasa lebih baik."
           }
         ]
       },
       {
         "id": 2,
-        "title": "Panduan Utama Pemasaran WhatsApp untuk Resor",
-        "excerpt": "WhatsApp telah menjadi saluran utama bagi tamu India. Pelajari praktik terbaik untuk menarik audiens Anda dan mendorong pemesanan langsung.",
-        "date": "28 Sep, 2026",
-        "readTime": "7 menit membaca",
-        "category": "Pemasaran"
+        "title": "Masa Depan Pendapatan Hotel",
+        "subtitle": "Mengapa Innhance Meninggalkan Pesaing Tradisional?",
+        "excerpt": "Industri perhotelan bergerak lebih cepat dari sebelumnya. Namun, sebagian besar hotel masih mengelola operasional dan pendapatannya menggunakan sistem warisan yang terfragmentasi dan dibangun satu dekade lalu.",
+        "date": "June 04, 2026",
+        "readTime": "7 min read",
+        "category": "Pemasaran",
+        "contentBlocks": [
+          {
+            "type": "p",
+            "text": "Industri perhotelan bergerak lebih cepat dari sebelumnya. Namun, sebagian besar hotel masih mengelola operasional dan pendapatannya menggunakan sistem warisan yang terfragmentasi dan dibangun satu dekade lalu."
+          },
+          {
+            "type": "p",
+            "text": "Antara menggunakan Sistem Manajemen Properti (PMS) tradisional, bergulat dengan manajer saluran yang kikuk, dan mencoba memprediksi permintaan musiman secara manual, para pelaku bisnis perhotelan kehilangan waktu dan keuntungan."
+          },
+          {
+            "type": "p",
+            "text": "Innhance dibangun untuk mengubah itu. Inilah cara kami menghadapi teknologi perhotelan tradisional dan alasan properti modern beralih."
+          },
+          {
+            "type": "h3",
+            "text": "1. Penetapan Harga Statis vs. Otomatisasi AI Waktu Nyata"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Pesaing: Sebagian besar alat manajemen pendapatan bergantung pada pengaturan yang kaku dan berbasis aturan. Jika Anda ingin mengubah harga berdasarkan peristiwa lokal atau lonjakan permintaan yang tiba-tiba, seseorang harus masuk secara manual, menghitung risiko, dan memperbarui tarif di seluruh saluran.",
+              "Keuntungan Innhance: Kami tidak hanya menampilkan data; kita bertindak berdasarkan hal itu. Innhance menggunakan pemodelan prediktif AI tingkat lanjut untuk menganalisis permintaan pasar, tingkat pesaing, dan data historis secara real-time. Ini secara otomatis mengoptimalkan tarif kamar Anda 24/7 untuk memaksimalkan RevPAR (Pendapatan Per Kamar yang Tersedia) tanpa memerlukan pengawasan terus-menerus."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2. Dasbor Terfragmentasi vs. Ekosistem Terpadu"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Pesaing: Tumpukan teknologi hotel standar adalah selimut tambal sulam. Anda memiliki satu perangkat lunak untuk PMS Anda, satu lagi untuk pengelola saluran Anda, dan mungkin alat analisis pihak ketiga. Menjaga mereka tetap sinkron selalu membuat pusing kepala.",
+              "Keuntungan Innhance: Innhance menjembatani kesenjangan. Dengan mengintegrasikan otomatisasi pendapatan secara langsung dengan operasional properti, kami menghilangkan silo data. Anda mendapatkan satu sumber kebenaran yang kohesif yang menjaga meja depan, manajemen, dan saluran distribusi Anda tetap selaras."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3. Orientasi Kikuk vs. Penerapan Instan"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Pesaing: Perangkat lunak perusahaan lama sering kali memerlukan pelatihan berminggu-minggu, biaya penyiapan yang mahal, dan proses orientasi yang rumit sehingga mengganggu operasional harian Anda.",
+              "Keunggulan Innhance: Dibangun untuk lanskap perhotelan modern, Innhance memprioritaskan pengalaman pengguna yang bersih dan intuitif. Platform kami dirancang untuk penerapan cepat, memungkinkan Anda memanfaatkan alur kerja yang ada dan mulai melihat pengoptimalan pendapatan otomatis dengan segera."
+            ]
+          },
+          {
+            "type": "conclusion",
+            "text": "Alat tradisional memberi tahu Anda apa yang terjadi kemarin. Innhance memberi tahu Anda apa yang harus dilakukan saat ini dan mengotomatiskannya untuk Anda. Jika Anda siap untuk berhenti meninggalkan uang dan merasakan kehebatan manajemen perhotelan berbasis AI, inilah saatnya untuk melakukan peningkatan."
+          },
+          {
+            "type": "conclusion",
+            "text": "Siap mengubah properti Anda? Temukan bagaimana Innhance dapat mengotomatiskan pertumbuhan pendapatan Anda hari ini."
+          }
+        ]
       },
       {
         "id": 3,
-        "title": "Mengapa Pemesanan Langsung Bebas Komisi Adalah Masa Depan",
-        "excerpt": "Berhenti membayar komisi 15-25% ke OTA. Kami mengeksplasi strategi yang digunakan hotel independen untuk merebut kembali margin mereka melalui saluran langsung.",
-        "date": "15 Sep, 2026",
-        "readTime": "4 menit membaca",
+        "title": "Mengapa Pemesanan Langsung Tanpa Komisi adalah Masa Depan",
+        "excerpt": "Berhenti membayar 15-25% ke OTA. Kami menjajaki strategi yang digunakan hotel-hotel independen terkemuka untuk mendapatkan kembali margin mereka melalui saluran langsung.",
+        "date": "Sep 15, 2026",
+        "readTime": "4 min read",
         "category": "Strategi"
       }
     ],
-    "backToJournal": "Kembali ke Jurnal",
-    "ctaTitle": "Siap untuk mengoptimalkan operasional hotel Anda?",
-    "ctaDesc": "Jadwalkan demo langsung untuk melihat bagaimana Innhance dapat mengotomatiskan komunikasi tamu Anda.",
+    "ctaTitle": "Siap mengubah properti Anda?",
+    "ctaDesc": "Temukan bagaimana Innhance dapat mengotomatiskan pertumbuhan pendapatan Anda hari ini.",
     "ctaBtn": "Pesan Demo Hari Ini"
   },
   "privacy": {

@@ -20,9 +20,11 @@ const uppercaseFirstWord = (text) => {
 };
 
 export default function Blog() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [selectedPostId, setSelectedPostId] = useState(null)
   const container = useRef(null)
+  const rawPosts = t("blog.posts", { returnObjects: true });
+  const blogPosts = Array.isArray(rawPosts) ? rawPosts.filter(post => post.contentBlocks && post.contentBlocks.length > 0) : [];
   
   useGSAP(() => {
     if (selectedPostId === null) {
@@ -31,19 +33,18 @@ export default function Blog() {
         opacity: 0,
         duration: 1,
         stagger: 0.15,
-        ease: "power3.out"
+        ease: "power3.out",
+        clearProps: "all"
       })
 
       gsap.from('.blog-card', {
-        scrollTrigger: {
-          trigger: '.blog-grid',
-          start: 'top 85%'
-        },
         y: 50,
         opacity: 0,
         duration: 0.8,
-        stagger: 0.2,
-        ease: "power3.out"
+        stagger: 0.15,
+        ease: "power3.out",
+        delay: 0.2,
+        clearProps: "all"
       })
     } else {
       gsap.from('.blog-article-header > *', {
@@ -51,25 +52,25 @@ export default function Blog() {
         opacity: 0,
         duration: 0.8,
         stagger: 0.1,
-        ease: "power3.out"
+        ease: "power3.out",
+        clearProps: "all"
       })
       gsap.from('.blog-article-banner, .blog-article-content > *', {
         y: 40,
         opacity: 0,
         duration: 1,
         stagger: 0.1,
-        ease: "power3.out"
+        ease: "power3.out",
+        clearProps: "all"
       })
     }
-  }, { scope: container, dependencies: [selectedPostId] })
+  }, { scope: container, dependencies: [selectedPostId, blogPosts.length] })
 
   const blogPostImages = {
     1: "/assets/blog/blog_img_1.webp",
-    2: "https://images.unsplash.com/photo-1551882547-ff40c0d1398c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    2: "/assets/blog/blog_img_2.webp",
     3: "https://images.unsplash.com/photo-1542314831-c6a420325142?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   }
-
-  const blogPosts = (t("blog.posts", { returnObjects: true }) || []).filter(post => post.contentBlocks && post.contentBlocks.length > 0)
 
   if (selectedPostId !== null) {
     const post = blogPosts.find(p => p.id === selectedPostId) || blogPosts[0]
@@ -116,12 +117,12 @@ export default function Blog() {
                     case "h4":
                       return <h4 key={index} className="blog-body-heading-4">{block.text}</h4>
                     case "p":
-                      return <p key={index}>{block.text}</p>
+                      return <p key={index} dangerouslySetInnerHTML={{ __html: block.text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}></p>
                     case "list":
                       return (
                         <ul key={index} className="blog-bullet-list">
                           {Array.isArray(block.items) && block.items.map((item, i) => (
-                            <li key={i}>{uppercaseFirstWord(item)}</li>
+                            <li key={i} dangerouslySetInnerHTML={{ __html: uppercaseFirstWord(item).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }} />
                           ))}
                         </ul>
                       )
@@ -207,14 +208,14 @@ export default function Blog() {
                     case "conclusion":
                       return (
                         <div key={index} className="conclusion-block">
-                          <p>{block.text}</p>
+                          <p dangerouslySetInnerHTML={{ __html: block.text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}></p>
                         </div>
                       )
                     case "conclusion_list":
                       return (
                         <ul key={index} className="blog-bullet-list conclusion-bullet-list">
                           {Array.isArray(block.items) && block.items.map((item, i) => (
-                            <li key={i}>{uppercaseFirstWord(item)}</li>
+                            <li key={i} dangerouslySetInnerHTML={{ __html: uppercaseFirstWord(item).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }} />
                           ))}
                         </ul>
                       )
