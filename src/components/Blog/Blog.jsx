@@ -69,7 +69,7 @@ export default function Blog() {
   const blogPostImages = {
     1: "/assets/blog/blog_img_1.webp",
     2: "/assets/blog/blog_img_2.webp",
-    3: "https://images.unsplash.com/photo-1542314831-c6a420325142?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    3: "/assets/blog/blog_img_3.webp"
   }
 
   if (selectedPostId !== null) {

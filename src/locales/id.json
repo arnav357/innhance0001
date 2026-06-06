@@ -1349,15 +1349,90 @@
       },
       {
         "id": 3,
-        "title": "Mengapa Pemesanan Langsung Tanpa Komisi adalah Masa Depan",
-        "excerpt": "Berhenti membayar 15-25% ke OTA. Kami menjajaki strategi yang digunakan hotel-hotel independen terkemuka untuk mendapatkan kembali margin mereka melalui saluran langsung.",
-        "date": "Sep 15, 2026",
-        "readTime": "4 min read",
-        "category": "Strategi"
+        "title": "Biaya Tersembunyi dari Penundaan Harga Dinamis",
+        "excerpt": "Setiap pemilik hotel tahu bahwa harga kamar tidak boleh statis. Tetapi pada saat Anda menyadari ada acara lokal, Anda sudah terlambat beberapa jam.",
+        "date": "07 Juni 2026",
+        "readTime": "5 mnt baca",
+        "category": "Pendapatan",
+        "subtitle": "Bagaimana Jam Keraguan Merugikan RevPAR Anda",
+        "contentBlocks": [
+          {
+            "type": "p",
+            "text": "Setiap pengusaha perhotelan tahu bahwa harga kamar tidak boleh statis. Tetapi pada saat Anda menyadari sebuah acara lokal telah diumumkan atau pesaing telah menurunkan harga mereka, Anda sudah tertinggal beberapa jam."
+          },
+          {
+            "type": "p",
+            "text": "Dalam lanskap perhotelan modern, harga dinamis manual adalah sebuah oksimoron. Jika pembaruan harga Anda bergantung pada manusia yang masuk untuk membuat perubahan, Anda mempraktikkan penetapan harga yang tertunda."
+          },
+          {
+            "type": "p",
+            "text": "Inilah alasan mengapa keraguan mengorbankan pendapatan hotel Anda yang serius, dan bagaimana otomatisasi AI sejati memperbaikinya."
+          },
+          {
+            "type": "h3",
+            "text": "Harga dari \"Penundaan Manusia\""
+          },
+          {
+            "type": "p",
+            "text": "Sebagian besar hotel beroperasi pada model pendapatan reaktif. Manajer melihat PMS sekali atau dua kali sehari dan mendorong pembaruan harga secara manual."
+          },
+          {
+            "type": "p",
+            "text": "Proses ini memperkenalkan kesenjangan operasional yang masif:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "**Lonjakan Tengah Malam:** Jika pelancong mulai memesan kamar pada pukul 23:00, sistem manual membuat harga Anda tetap murah semalaman.",
+              "**Pemotongan Pesaing:** Ketika properti tetangga memangkas harga, properti Anda akan kosong sampai seseorang merespons secara manual.",
+              "**Gesekan Manual:** Menghitung elastisitas permintaan secara manual membutuhkan waktu, yang mengarah pada kelumpuhan operasional."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Beralih dari Reaktif ke Otonom"
+          },
+          {
+            "type": "p",
+            "text": "Optimalisasi pendapatan sejati tidak pernah tidur. Innhance menghilangkan penundaan manusia dengan bertindak sebagai analis harga otonom 24/7."
+          },
+          {
+            "type": "p",
+            "text": "Daripada menunggu pemicu manual, AI kami secara konstan melacak kecepatan pasar waktu nyata:"
+          },
+          {
+            "type": "h4",
+            "text": "1. Kalibrasi Pasar Instan"
+          },
+          {
+            "type": "p",
+            "text": "Saat permintaan pasar bergeser, Innhance menghitung harga optimal dan secara otomatis mendorongnya ke semua saluran distribusi."
+          },
+          {
+            "type": "h4",
+            "text": "2. Menjaga Okupansi Anda"
+          },
+          {
+            "type": "p",
+            "text": "Dengan berintegrasi langsung dengan data operasional Anda, platform ini menyeimbangkan laju okupansi Anda dengan faktor eksternal."
+          },
+          {
+            "type": "h4",
+            "text": "3. Sinkronisasi Saluran Penuh"
+          },
+          {
+            "type": "p",
+            "text": "Karena lapisan otomatisasi menjembatani inventaris inti Anda dan manajer saluran Anda, pembaruan harga terjadi tanpa cela."
+          },
+          {
+            "type": "conclusion",
+            "text": "**Menit Sama Dengan Uang**<br/><br/>Di pasar yang bergerak cepat, pembaruan harga yang tertunda adalah hilangnya peluang pendapatan. Jika tim Anda menghabiskan waktu berjam-jam menyesuaikan harga, mereka hanya berusaha mengejar ketertinggalan pasar.<br/><br/>Dengan Innhance, Anda bertransisi ke pertumbuhan pendapatan otomatis secara waktu nyata. Berhentilah membiarkan keraguan mendikte profitabilitas Anda."
+          }
+        ]
       }
     ],
-    "ctaTitle": "Siap mengubah properti Anda?",
-    "ctaDesc": "Temukan bagaimana Innhance dapat mengotomatiskan pertumbuhan pendapatan Anda hari ini.",
+    "ctaTitle": "Ingin melihat otomatisasi pendapatan AI yang sebenarnya beraksi?",
+    "ctaDesc": "Temukan bagaimana Innhance dapat mengoptimalkan RevPAR properti Anda 24/7. Hubungi tim kami.",
     "ctaBtn": "Pesan Demo Hari Ini"
   },
   "privacy": {

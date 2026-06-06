@@ -371,6 +371,7 @@
 
 .blog-article-banner {
   width: 100%;
+  max-height: 450px;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0,0,0,0.06);
@@ -379,7 +380,10 @@
 
 .blog-banner-img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  object-position: center;
   display: block;
 }
 
