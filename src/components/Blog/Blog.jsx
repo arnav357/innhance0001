@@ -69,7 +69,8 @@ export default function Blog() {
   const blogPostImages = {
     1: "/assets/blog/blog_img_1.webp",
     2: "/assets/blog/blog_img_2.webp",
-    3: "/assets/blog/blog_img_3.webp"
+    3: "/assets/blog/blog_img_3.webp",
+    4: "/assets/blog/blog_img_4.webp"
   }
 
   if (selectedPostId !== null) {
@@ -134,6 +135,7 @@ export default function Blog() {
                               <tr>
                                 <th>{post.table1HeaderTrend}</th>
                                 <th>{post.table1HeaderData}</th>
+                                {post.table1HeaderCol3 && <th>{post.table1HeaderCol3}</th>}
                               </tr>
                             </thead>
                             <tbody>
@@ -141,6 +143,7 @@ export default function Blog() {
                                 <tr key={idx}>
                                   <td>{row.label}</td>
                                   <td className="text-highlight">{row.val}</td>
+                                  {row.val2 && <td className="text-highlight">{row.val2}</td>}
                                 </tr>
                               ))}
                             </tbody>
@@ -237,7 +240,7 @@ export default function Blog() {
             {/* Article Footer CTA */}
             <div className="blog-article-footer-cta">
               <h4>{t("blog.ctaTitle") || "Ready to optimize your hotel operations?"}</h4>
-              <p>{t("blog.ctaDesc") || "Schedule a live demo to see how Innhance can automate your guest communications."}</p>
+              <p>{t("blog.ctaDesc") || "Discover how we can optimize your operations. Head over to Innhance.in to explore our platform features or schedule a custom walkthrough with our team today."}</p>
               <a href="https://wa.link/jkc1du" target="_blank" rel="noopener noreferrer">
                 <button className="btn-primary">{t("blog.ctaBtn") || "Book a Demo Today"}</button>
               </a>
