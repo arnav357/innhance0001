@@ -69,43 +69,77 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <Helmet><title>Innhance | Turn WhatsApp Chats into Hotel Bookings</title><meta name="description" content="Innhance | AI-driven WhatsApp booking automation for Indian boutique hotels. Automate every inquiry 24/7 in 20+ languages." /></Helmet>
+              <Helmet>
+                <title>Innhance | Turn WhatsApp Chats into Hotel Bookings</title>
+                <meta name="description" content="Innhance | AI-driven WhatsApp booking automation for Indian boutique hotels. Automate every inquiry 24/7 in 20+ languages." />
+                <meta property="og:title" content="Innhance | Turn WhatsApp Chats into Hotel Bookings" />
+                <meta property="og:description" content="Innhance | AI-driven WhatsApp booking automation for Indian boutique hotels. Automate every inquiry 24/7 in 20+ languages." />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://innhance.in/" />
+                <meta property="og:image" content="https://innhance.in/assets/og-image.jpg" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Innhance | Turn WhatsApp Chats into Hotel Bookings" />
+                <meta name="twitter:description" content="Innhance | AI-driven WhatsApp booking automation for Indian boutique hotels. Automate every inquiry 24/7 in 20+ languages." />
+                <meta name="twitter:image" content="https://innhance.in/assets/og-image.jpg" />
+                <link rel="canonical" href="https://innhance.in/" />
+              </Helmet>
               <HomeContent />
             </>
           } />
           <Route path="/hotel-whatsapp-automation" element={
             <>
-              <Helmet><title>Hotel WhatsApp Automation | Innhance</title><meta name="description" content="Automate your hotel bookings with WhatsApp AI chatbot." /></Helmet>
+              <Helmet>
+                <title>Hotel WhatsApp Automation | Innhance</title>
+                <meta name="description" content="Automate your hotel bookings with WhatsApp AI chatbot." />
+                <link rel="canonical" href="https://innhance.in/hotel-whatsapp-automation" />
+              </Helmet>
               <HomeContent />
             </>
           } />
           <Route path="/hotel-booking-automation" element={
             <>
-              <Helmet><title>Hotel Booking Automation | Innhance</title><meta name="description" content="Seamless hotel booking automation for modern boutique hotels." /></Helmet>
+              <Helmet>
+                <title>Hotel Booking Automation | Innhance</title>
+                <meta name="description" content="Seamless hotel booking automation for modern boutique hotels." />
+                <link rel="canonical" href="https://innhance.in/hotel-booking-automation" />
+              </Helmet>
               <HomeContent />
             </>
           } />
           <Route path="/ai-chatbot-for-hotels" element={
             <>
-              <Helmet><title>AI Chatbot for Hotels | Innhance</title><meta name="description" content="24/7 AI Chatbot for hotels to handle guest inquiries and bookings instantly." /></Helmet>
+              <Helmet>
+                <title>AI Chatbot for Hotels | Innhance</title>
+                <meta name="description" content="24/7 AI Chatbot for hotels to handle guest inquiries and bookings instantly." />
+                <link rel="canonical" href="https://innhance.in/ai-chatbot-for-hotels" />
+              </Helmet>
               <HomeContent />
             </>
           } />
           <Route path="/about" element={
             <Suspense fallback={<div style={{ minHeight: '100vh' }}></div>}>
-              <Helmet><title>About Us | Innhance</title></Helmet>
+              <Helmet>
+                <title>About Us | Innhance</title>
+                <link rel="canonical" href="https://innhance.in/about" />
+              </Helmet>
               <AboutSection />
             </Suspense>
           } />
           <Route path="/privacy" element={
             <Suspense fallback={<div style={{ minHeight: '100vh' }}></div>}>
-              <Helmet><title>Privacy Policy | Innhance</title></Helmet>
+              <Helmet>
+                <title>Privacy Policy | Innhance</title>
+                <link rel="canonical" href="https://innhance.in/privacy" />
+              </Helmet>
               <PrivacyPolicy />
             </Suspense>
           } />
           <Route path="/blog" element={
             <Suspense fallback={<div style={{ minHeight: '100vh' }}></div>}>
-              <Helmet><title>Blog | Innhance</title></Helmet>
+              <Helmet>
+                <title>Blog | Innhance</title>
+                <link rel="canonical" href="https://innhance.in/blog" />
+              </Helmet>
               <Blog />
             </Suspense>
           } />

@@ -10,7 +10,8 @@ gsap.config({ force3D: true })
 import { BrowserRouter } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const rootElement = document.getElementById('root');
+const app = (
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
@@ -19,5 +20,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Suspense>
       </BrowserRouter>
     </HelmetProvider>
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
+
+if (rootElement.hasChildNodes()) {
+  ReactDOM.hydrateRoot(rootElement, app);
+} else {
+  ReactDOM.createRoot(rootElement).render(app);
+}

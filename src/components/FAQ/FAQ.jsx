@@ -68,7 +68,7 @@ const FAQ = () => {
                     onClick={() => toggleFAQ(index)}
                     aria-expanded={openIndex === index}
                   >
-                    <span>{faq.question}</span>
+                    <h3 style={{ fontSize: 'inherit', margin: 0, fontWeight: 'inherit' }}>{faq.question}</h3>
                     <ChevronDown className="faq-icon" />
                   </button>
                   <div 

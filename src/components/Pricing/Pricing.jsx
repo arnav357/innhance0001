@@ -42,7 +42,7 @@ export default function Pricing() {
                 <div className="price-top">
                   <h3 className="plan-title">{plan.tier}</h3>
                   {plan.subtitle && <div className="plan-sub">{plan.subtitle}</div>}
-                  <h2 className="plan-price">{plan.price}</h2>
+                  <div className="plan-price">{plan.price}</div>
                   <p className="plan-desc">{plan.description}</p>
                 </div>
                 <div className="price-list-wrap">
