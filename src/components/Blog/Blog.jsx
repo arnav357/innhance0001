@@ -70,7 +70,8 @@ export default function Blog() {
     1: "/assets/blog/blog_img_1.webp",
     2: "/assets/blog/blog_img_2.webp",
     3: "/assets/blog/blog_img_3.webp",
-    4: "/assets/blog/blog_img_4.webp"
+    4: "/assets/blog/blog_img_4.webp",
+    5: "/assets/blog/blog_img_5.webp"
   }
 
   if (selectedPostId !== null) {
@@ -239,8 +240,8 @@ export default function Blog() {
 
             {/* Article Footer CTA */}
             <div className="blog-article-footer-cta">
-              <h4>{t("blog.ctaTitle") || "Ready to optimize your hotel operations?"}</h4>
-              <p>{t("blog.ctaDesc") || "Discover how we can optimize your operations. Head over to Innhance.in to explore our platform features or schedule a custom walkthrough with our team today."}</p>
+              <h4>{t("blog.ctaTitle") || "Ready to build a highly integrated operation?"}</h4>
+              <p>{t("blog.ctaDesc") || "Visit Innhance.in to see our platform capabilities in action, or connect with our integration specialists to design a high-performing tech stack for your brand today."}</p>
               <a href="https://wa.link/jkc1du" target="_blank" rel="noopener noreferrer">
                 <button className="btn-primary">{t("blog.ctaBtn") || "Book a Demo Today"}</button>
               </a>
