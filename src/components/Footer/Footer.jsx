@@ -14,7 +14,6 @@ export default function Footer() {
     if (location.pathname !== path) {
       navigate(path)
     }
-    window.scrollTo(0,0)
   }
 
   const handleSectionClick = (e, path, sectionId) => {
@@ -71,7 +70,7 @@ export default function Footer() {
           <div className="flink-col contact-col">
             <h3>{t("footer.contact")}</h3>
             <ul>
-              <li><Mail size={16}/> {data.company.email}</li>
+              <li><a href={`mailto:${data.company.email}`} className="contact-link"><Mail size={16}/> {data.company.email}</a></li>
               <li><MapPin size={16}/> {data.company.location}</li>
             </ul>
           </div>

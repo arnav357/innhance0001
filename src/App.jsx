@@ -61,6 +61,13 @@ function App() {
     }, 50)
   }, [i18n.language, location.pathname])
 
+  useEffect(() => {
+    // Scroll to top on pathname change unless there's a hash
+    if (!location.hash) {
+      window.scrollTo(0, 0)
+    }
+  }, [location.pathname, location.hash])
+
   return (
     <div className="app-container">
       <Navbar />
@@ -135,6 +142,15 @@ function App() {
             </Suspense>
           } />
           <Route path="/blog" element={
+            <Suspense fallback={<div style={{ minHeight: '100vh' }}></div>}>
+              <Helmet>
+                <title>Blog | Innhance</title>
+                <link rel="canonical" href="https://innhance.in/blog" />
+              </Helmet>
+              <Blog />
+            </Suspense>
+          } />
+          <Route path="/blog/:id" element={
             <Suspense fallback={<div style={{ minHeight: '100vh' }}></div>}>
               <Helmet>
                 <title>Blog | Innhance</title>

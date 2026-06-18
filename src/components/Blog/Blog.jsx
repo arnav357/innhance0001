@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useParams, useNavigate } from 'react-router-dom'
 import { ArrowLeft, ArrowRight, Calendar, Clock, Sparkles, HelpCircle } from 'lucide-react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
@@ -21,7 +22,9 @@ const uppercaseFirstWord = (text) => {
 
 export default function Blog() {
   const { t, i18n } = useTranslation()
-  const [selectedPostId, setSelectedPostId] = useState(null)
+  const { id } = useParams()
+  const navigate = useNavigate()
+  const selectedPostId = id ? parseInt(id, 10) : null
   const container = useRef(null)
   const rawPosts = t("blog.posts", { returnObjects: true });
   const blogPosts = Array.isArray(rawPosts) ? rawPosts.filter(post => post.contentBlocks && post.contentBlocks.length > 0) : [];
@@ -37,14 +40,19 @@ export default function Blog() {
         clearProps: "all"
       })
 
-      gsap.from('.blog-card', {
-        y: 50,
-        opacity: 0,
-        duration: 0.8,
-        stagger: 0.15,
-        ease: "power3.out",
-        delay: 0.2,
-        clearProps: "all"
+      gsap.utils.toArray('.blog-card').forEach((card, index) => {
+        gsap.from(card, {
+          scrollTrigger: {
+            trigger: card,
+            start: 'top 85%',
+          },
+          y: 50,
+          opacity: 0,
+          duration: 0.8,
+          delay: (index % 3) * 0.15, // Keep a small stagger effect for grid rows on desktop
+          ease: "power3.out",
+          clearProps: "all"
+        })
       })
     } else {
       gsap.from('.blog-article-header > *', {
@@ -85,7 +93,7 @@ export default function Blog() {
 
         <div className="container-custom relative-z">
           {/* Back button */}
-          <button className="blog-back-btn" onClick={() => { setSelectedPostId(null); window.scrollTo(0,0); }}>
+          <button className="blog-back-btn" onClick={() => navigate('/blog')}>
             <ArrowLeft size={18} /> {t("blog.backToJournal") || "Back to Journal"}
           </button>
 
@@ -285,7 +293,7 @@ export default function Blog() {
                   </div>
                   <h3 className="blog-post-title">{post.title}</h3>
                   <p className="blog-excerpt">{post.excerpt}</p>
-                  <a href="#" className="read-more-btn" onClick={(e) => { e.preventDefault(); setSelectedPostId(post.id); window.scrollTo(0,0); }}>
+                  <a href={`/blog/${post.id}`} className="read-more-btn" onClick={(e) => { e.preventDefault(); navigate(`/blog/${post.id}`); }}>
                     {t("blog.readArticle")} <ArrowRight size={16} />
                   </a>
                 </div>
