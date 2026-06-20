@@ -1,4 +1,4 @@
-import{c as t,j as e,S as r}from"./index-NWz9sAUl.js";import{u as o,a}from"./i18n-V80ZoVwJ.js";import{g as n}from"./gsap-D8xEd5i-.js";import{M as m}from"./message-circle-yAg2n2al.js";import"./react-B7PV_hRk.js";/**
+import{c as t,j as e,S as r}from"./index-D8ywVSNr.js";import{u as o,a}from"./i18n-V80ZoVwJ.js";import{g as n}from"./gsap-D8xEd5i-.js";import{M as m}from"./message-circle-C_F0eo5u.js";import"./react-COir2svt.js";/**
  * @license lucide-react v1.8.0 - ISC
  *
  * This source code is licensed under the ISC license.
